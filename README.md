@@ -11,3 +11,5 @@ Basically a service wrapper for [MinGrammer](https://diagrams.mingrammer.com/)
 docker build --pull --rm -f "Dockerfile" -t allediagrams:latest "."
 
 docker run --name allediagrams -p 8000:80 allediagrams:latest
+
+# POST Object Structure
