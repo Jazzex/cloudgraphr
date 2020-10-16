@@ -30,8 +30,7 @@ def create_entities(entities):
                 create_entities(entity.children)
         elif (isinstance(entity, NodeCls)):
             node = entity
-            node_ref = node.getRef()
-            node.ref = node_ref  
+            node.set_ref()
             all_nodes[node.name] = node
 
 

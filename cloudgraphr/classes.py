@@ -17,8 +17,8 @@ class NodeCls:
     links = []
     ref = None
 
-    def getRef(self):
-        return self.function(self.name)
+    def set_ref(self):
+        self.ref = self.function(self.name)
 
     def __init__(self, name, diagram, function, parent, links):
         self.name = name

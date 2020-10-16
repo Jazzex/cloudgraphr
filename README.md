@@ -8,8 +8,7 @@ Basically a service wrapper for [MinGrammer](https://diagrams.mingrammer.com/)
 
 ## Docker Commands
 
-docker build --pull --rm -f "Dockerfile" -t allediagrams:latest "."
+docker build --pull --rm -f "Dockerfile" -t cloudgraphr:latest "."
 
-docker run --name allediagrams -p 8000:80 allediagrams:latest
+docker run --name cloudgraphr -p 8000:80 cloudgraphr:latest
 
-# POST Object Structure
